@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="App/Styles/style.css" type="text/css" />
 	<title>Listo</title>
 </head>
 <body>
-
-
-
+	<header>
+		<form id="newTaskForm">
+			<input id="newItemInput" placeholder="new task">
+			<div class="button" id="saveNewItem">Save</div>
+			<div class="button" id="cancel">Cancel</div>
+		</form>
+		<div class="new-item-header">
+			<div href="#" class="pull-right pencil" id="newListItem" style="">What is your next task, Zac?</div>
+		</div>
+	</header>
+	<div class="listContainer">
+		<div class="panel">
+			New Tasks
+			<ul class="list-group" id="newList"></ul>
+		</div>
+	</div>		
+	<div class="listContainer">
+		<div class="panel">
+			In Progress
+			<ul class="list-group" id="currentList"></ul>
+		</div>
+	</div>
+	<div class="listContainer">
+		<div class="panel">
+			Finished
+			<ul class="list-group" id="archivedList"></ul>
+		</div>
+	</div>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="App/Scripts/jquery.js"></script>
 </body>
 </html>
