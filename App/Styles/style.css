@@ -68,6 +68,21 @@ input:focus {
 	background: black;
 }
 
+.weatherBox {
+	float: right;
+	width: 20%;
+	height: 700px;
+	border: 1px red solid;
+	margin-top: 7%;
+	padding: .5rem;
+}
+
+.favoriteLink {
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+}
+
 .listContainer {
 	display: flex;
 	justify-content: space-around;
@@ -81,7 +96,7 @@ input:focus {
 	text-align: center;
 	font-size: 2rem;
 	color: white;
-	width: 33%;
+	width: 90%;
 	padding-left: 5%;
 }
 
