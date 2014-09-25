@@ -1,5 +1,5 @@
 html {
-	background: url(http://miriadna.com/desctopwalls/images/max/Grey-landscape.jpg) no-repeat center center fixed;
+	background: url(http://theblondecoyote.files.wordpress.com/2011/12/thors-hammer-panorama.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -9,24 +9,27 @@ html {
 
 form {
 	color: white;
-	font-size: 2rem;
+	font-size: 4rem;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: left;
 	margin: 1.5rem;
 	height: 2rem;
 }
 
 #newListItem {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: white;
 	cursor: pointer;
 	transition: color .3s ease;
-	background: rgba(0,0,0, .75);
+/*	background: rgba(0,0,0, .75);
 	border: 2px solid #f0fc6c;
-	border-radius: 5rem;
+	border-radius: 5rem;*/
 	padding: .5rem;
 	display: inline-block;
+	position: fixed;
+	margin-top: 8rem;
+	margin-left: 14rem;
 }
 
 #newListItem:hover {
@@ -36,7 +39,7 @@ form {
 input {
 	border: 2px solid #f0fc6c;
 	background: rgba(0,0,0, .75);
-	color: white;
+	color: rgba(255,255,255, .75);
 	font-size: 2rem;
 	padding: .5rem;
 	border-radius: 5rem;
@@ -48,13 +51,13 @@ input:focus {
 
 .button {
 	font-size: 1.5rem;
-	color: white;
+	color: rgba(255,255,255, .75);
 	cursor: pointer;
 	transition: color .3s ease;
-	background: rgba(0,0,0, .75);
+/*	background: rgba(0,0,0, .75);
 	border: 2px solid #f0fc6c;
 	border-radius: 5rem;
-	padding: .5rem;
+	padding: .5rem;*/
 	display: inline-block;
 }
 
@@ -84,11 +87,12 @@ input:focus {
 }
 
 .listContainer {
-	display: flex;
-	justify-content: space-around;
-	background: rgba(0,0,0, .75);
+	float: left;
+/*	display: flex;
+	justify-content: space-around*/;
+/*	background: rgba(0,0,0, .75);
 	border: 2px solid #f0fc6c;
-	border-radius: 5rem;
+	border-radius: 2.5rem;*/
 	margin: 6rem;
 }
 
@@ -116,4 +120,12 @@ li {
 
 a {
 	text-decoration: none;
+}
+
+#clockbox {
+	color: rgba(255,255,255, .75);
+	font-size: 8rem;
+	text-align: center;
+	position: fixed;
+	margin-left: 30%;
 }

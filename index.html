@@ -12,7 +12,8 @@
 			<div class="button" id="cancel">Cancel</div>
 		</form>
 		<div class="new-item-header">
-			<div href="#" class="pull-right pencil" id="newListItem" style="">What is your next task, Zac?</div>
+<!-- 			<div href="#" class="pull-right pencil" id="newListItem" style="">What is your next task, Zac?</div> -->
+			
 		</div>
 	</header>
 	<div class="weatherBox">
@@ -26,11 +27,21 @@
 	</div>
 	<div class="listContainer">
 		<div class="panel">
-			<div class="taskHeader">New Items</div>
+			<div class="taskHeader">New</div>
 			<ul class="list-group" id="newList"></ul>
 		</div>
+		<div class="panel">
+			<div class="taskHeader">In Progress</div>
+			<ul class="list-group" id="currentList"></ul>
+		</div>
+		<div class="panel">
+			<div class="taskHeader">Finished</div>
+			<ul class="list-group" id="archivedList"></ul>
+		</div>
 	</div>		
-	<div class="listContainer">
+	<div id="clockbox"></div>
+	<div href="#" class="pull-right pencil" id="newListItem" style="">What is your next task, Zac?</div>
+<!-- 	<div class="listContainer">
 		<div class="panel">
 			<div class="taskHeader">In Progress</div>
 			<ul class="list-group" id="currentList"></ul>
@@ -41,7 +52,7 @@
 			<div class="taskHeader">Finished</div>
 			<ul class="list-group" id="archivedList"></ul>
 		</div>
-	</div>
+	</div> -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="App/Scripts/jquery.js"></script>
 </body>
